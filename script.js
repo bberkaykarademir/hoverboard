@@ -19,6 +19,5 @@ const setColor = (element) => {
 };
 
 const removeColor = (element) => {
-  let color = getRandomColor();
   element.style.background = "#1d1d1d";
 };
